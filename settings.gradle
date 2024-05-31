@@ -1,3 +1,37 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+        gradlePluginPortal()
+/*        flatDir{
+            dirs 'libs', 'libs/serenegiant/common', 'libs/serenegiant/common-core',
+                    'libs/serenegiant/common-gl', 'libs/serenegiant/common-media'
+        }*/
+    }
+}
+dependencyResolutionManagement {
+    //repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+rootProject.name = "AndroidUSBCamera"
+
 include ':app'
 
 // For debug online

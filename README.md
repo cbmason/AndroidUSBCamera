@@ -14,7 +14,7 @@
 Feature
 -------
 
-- Support opening multi-road camera;
+- Support opening multi-road camera;~~~~
 - Support opening uvc camera on Android 4.4+;
 - Support previewing 480p、720p、1080p，etc;
 - Support adding effects with OpenGL ES 2.0;

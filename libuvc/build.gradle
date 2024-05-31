@@ -3,8 +3,9 @@ apply plugin: 'com.android.library'
 import org.apache.tools.ant.taskdefs.condition.Os
 
 android {
-	compileSdkVersion rootProject.ext.versionCompiler
-	buildToolsVersion rootProject.ext.versionBuildTool
+	//compileSdkVersion rootProject.ext.versionCompiler
+	//buildToolsVersion rootProject.ext.versionBuildTool
+	compileSdkVersion 33
 
 	compileOptions {
 		sourceCompatibility rootProject.ext.javaSourceCompatibility
