@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usb>
+    <usb-device class="239" subclass="2" />
+    <usb-device class="14" subclass="1" />
+    <usb-device class="14" subclass="2" />
+    <usb-device class="14" subclass="9" />
+    <usb-device class="14" subclass="1" />
+    <usb-device class="14" subclass="2" />
+    <usb-device class="2" subclass="0" />
+    <usb-device class="6" subclass="-1" />
+    <usb-device class="39" subclass="0" />
+    <usb-device product-id="4836" vendor-id="9573" />
+    <usb-device product-id="2229" vendor-id="1133" />
+    <usb-device product-id="640" vendor-id="1409" />
+    <usb-device product-id="258" vendor-id="9228" />
+    <usb-device class="14" subclass="1" />
+    <usb-device class="14" subclass="2" />
+    <usb-device class="0" exclude="true" protocol="1" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="2" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="3" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="4" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="5" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="6" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="7" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="8" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="9" subclass="0" />
+    <usb-device class="0" exclude="true" protocol="10" subclass="0" />
+</usb>
