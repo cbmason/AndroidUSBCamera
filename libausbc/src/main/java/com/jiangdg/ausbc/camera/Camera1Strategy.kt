@@ -335,6 +335,7 @@ class Camera1Strategy(ctx: Context) : ICameraStrategy(ctx), Camera.PreviewCallba
         }
     }
 
+    @Deprecated("Kotlin")
     override fun onPreviewFrame(data: ByteArray?, camera: Camera?) {
         data ?: return
         getRequest() ?: return
