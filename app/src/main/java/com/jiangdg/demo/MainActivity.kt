@@ -61,9 +61,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun replaceDemoFragment(fragment: Fragment) {
         val hasCameraPermission = PermissionChecker.checkSelfPermission(this, CAMERA)
-        val hasStoragePermission =
-            PermissionChecker.checkSelfPermission(this, WRITE_EXTERNAL_STORAGE)
-        if (hasCameraPermission != PermissionChecker.PERMISSION_GRANTED || hasStoragePermission != PermissionChecker.PERMISSION_GRANTED) {
+        //val hasStoragePermission =
+//            PermissionChecker.checkSelfPermission(this, WRITE_EXTERNAL_STORAGE)
+        if (hasCameraPermission != PermissionChecker.PERMISSION_GRANTED){ //|| hasStoragePermission != PermissionChecker.PERMISSION_GRANTED) {
             if (ActivityCompat.shouldShowRequestPermissionRationale(this, CAMERA)) {
                 ToastUtils.show(R.string.permission_tip)
             }
