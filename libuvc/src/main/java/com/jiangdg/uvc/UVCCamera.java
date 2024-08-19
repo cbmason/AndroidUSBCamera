@@ -261,10 +261,6 @@ public class UVCCamera {
     		nativeRelease(mNativePtr);
 //    		mNativePtr = 0;	// nativeDestroyを呼ぶのでここでクリアしちゃダメ
     	}
-    	if (mCtrlBlock != null) {
-			mCtrlBlock.close();
-   			mCtrlBlock = null;
-		}
 		mControlSupports = mProcSupports = 0;
 		mCurrentFrameFormat = -1;
 		mCurrentBandwidthFactor = 0;
